@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyAlartDilogue</string>
+    <string name="btn_txt">::বাহির ::</string>
+    <string name="title_txt">:: আমাকে এলারট  করুন ::</string>
+    <string name="msg_txt">:: আপনি কি বের হতে চান ? ::</string>
+</resources>
