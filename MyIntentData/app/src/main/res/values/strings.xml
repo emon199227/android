@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyIntentData</string>
+    <string name="secount_activity">GO TO 2ND ACTIVITY</string>
+    <string name="first_activity">GO TO 1st ACTIVITY</string>
+</resources>
