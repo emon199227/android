@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyListView</string>
+    <string name="app_name">MySearch View</string>
     <string-array name="country_name">
 
         <item>Australia</item>
