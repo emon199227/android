@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MySpinner_with_Image</string>
+    <string-array name="country_names">
+
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Bangladesh</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hong Kong</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Italy</item>
+        <item>Korea</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Portugal</item>
+        <item>Singapore</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+
+
+    <string-array name="population">
+
+        <item>10 Million</item>
+        <item>11 Million</item>
+        <item>12 Million</item>
+        <item>13 Million</item>
+        <item>14 Million</item>
+        <item>15 Million</item>
+        <item>16 Million</item>
+        <item>17 Million</item>
+        <item>18 Million</item>
+        <item>19 Million</item>
+        <item>20 Million</item>
+        <item>21 Million</item>
+        <item>22 Million</item>
+        <item>23 Million</item>
+        <item>24 Million</item>
+        <item>25 Million</item>
+        <item>26 Million</item>
+        <item>27 Million</item>
+        <item>28 Million</item>
+        <item>29 Million</item>
+        <item>30 Million</item>
+
+    </string-array>
+</resources>
