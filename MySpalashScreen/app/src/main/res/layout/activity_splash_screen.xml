@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_screen"
     android:gravity="center"
-    tools:context=".MainActivity">
+
+    tools:context=".SplashScreen">
 
     <ProgressBar
-        android:id="@+id/pb"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progrssbarID"
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:progressTint="#02b3b9"
+        android:progressBackgroundTint="#F9F9F9"
         />
-
-
 
 </LinearLayout>
