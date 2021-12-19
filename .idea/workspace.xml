@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63e3bfa3-ff36-44b9-b582-a4780071ab87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/android.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="212af3a9-eae0-44f8-a9d6-f398420ae8f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21dvH8OcqneQsCSX5LqKRUvFmTv" />
+  <component name="ProjectId" id="22Qd6ZR2TjSsBatvRxs1BOUEmAk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,11 +28,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63e3bfa3-ff36-44b9-b582-a4780071ab87" name="Default Changelist" comment="" />
-      <created>1638283725878</created>
+      <changelist id="212af3a9-eae0-44f8-a9d6-f398420ae8f8" name="Default Changelist" comment="" />
+      <created>1639773571079</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638283725878</updated>
+      <updated>1639773571079</updated>
     </task>
     <servers />
   </component>
