@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#54C687"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".FeedbackActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <EditText
+            android:id="@+id/nameEdtTxtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name : "
+            android:textColorHint="@color/white"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+    <EditText
+        android:id="@+id/feedbackEdtTxtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Feedback : "
+        android:textColorHint="@color/white"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/sendBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            />
+        <Button
+            android:id="@+id/clrBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
