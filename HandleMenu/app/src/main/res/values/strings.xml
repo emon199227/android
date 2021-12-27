@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Handle Menu </string>
+    <string name="login_name"> Login Now  </string>
+    <string name="logout_name"> Logout Now </string>
+</resources>

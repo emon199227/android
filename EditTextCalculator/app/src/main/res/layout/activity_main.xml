@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="378dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text1stinput"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Violet"
+            android:hint="@string/Enter_Number"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/fuchsia"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text2ndinput"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/Violet"
+            android:hint="@string/Enter_Number1"
+            android:inputType="numberDecimal"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/fuchsia"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_calculate"
+                android:background="@color/gray"
+                android:text="@string/Add_text"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/sub_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:text="@string/sub_text"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/mul_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:text="@string/mul_text"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:id="@+id/dib_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:text="@string/dib_text"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resultid"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/DarkBlue"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/photo"/>
+    </LinearLayout>
+
+
+</LinearLayout>

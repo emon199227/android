@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Edit Text Calculator</string>
+    <string name="Enter_Number">Enter Number 1: </string>
+    <string name="Enter_Number1">Enter Number 2 : </string>
+    <string name="Add_text"> :: ADD::  </string>
+    <string name="sub_text">:: SUB:: </string>
+    <string name="mul_text">:: Multi:: </string>
+    <string name="dib_text">:: Div:: </string>
+</resources>

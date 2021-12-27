@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyGussingGame</string>
+    <string name="game_title">GussingGame</string>
+    <string name="head_content">::Enter Your Gausses here between 1 to 5 : :</string>
+    <string name="won_txt">::Congratulations ! ! ! You Have Won  : :</string>
+</resources>
