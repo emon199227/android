@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyCustomAdapter</string>
+    <string name="app_name">ExpendedListView</string>
     <string-array name="country_name_header">
 
         <item>Australia</item>
@@ -28,7 +28,7 @@
         <item>United Kingdom</item>
         <item>United States</item>
     </string-array>
-	<string-array name="country_name_chaild">
+    <string-array name="country_name_chaild">
 
         <item>I Love Australia
 		\n\n I try to Go Australia</item>
