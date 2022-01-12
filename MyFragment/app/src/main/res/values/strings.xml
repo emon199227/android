@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MyFragment</string>
+    <string name="aminul_details">name : aminul\nage : 27\nPhone : 01712445987</string>
+    <string name="joy_details">name : Joy\nage : 28\nPhone : 01611545544</string>
+    <string name="pinkey">MyFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
