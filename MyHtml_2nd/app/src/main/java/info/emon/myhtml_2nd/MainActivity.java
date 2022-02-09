@@ -1,12 +1,13 @@
-package info.emon.myhtml;
+package info.emon.myhtml_2nd;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.webkit.WebView;
+import android.text.Html;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private WebView webView;
+    private TextView textView;
     String Mytext ="<h1>This Emon headin 1 </h1>\n"+
             "<h2>This Emon headin 2 </h2>\n"+
             "<h3>This Emon headin 3 </h3>\n"+
@@ -15,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
             "<p><b>This Emon headin Bold text </b></p>\n"+
             "<p><b>This Emon headin iTalic text </b></p>\n";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        webView = (WebView) findViewById(R.id.webViewID);
-        webView.loadDataWithBaseURL(null,Mytext,"text/html","utf-8",null);
-
+        textView =(TextView) findViewById(R.id.textViewID);
+        textView.setText(Html.fromHtml(Mytext));
     }
 }
